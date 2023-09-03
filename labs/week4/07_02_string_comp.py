@@ -6,3 +6,11 @@
 # but try to do it using a list comprehension.
 
 word = "Amrita Vishwavidyapeetham"
+
+#SOLUTION
+
+# i am gonna assume that you want us to ignore blank spaces
+
+list1 = [letter for letter in word if not letter == " "]
+
+print(list1)

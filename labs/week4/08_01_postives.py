@@ -2,3 +2,11 @@
 # `numbers` that contains only the positive numbers from the provided list.
 
 numbers = [5, -8, 3, 10, -19, -22, 44, 2, -1, 4, 42]
+
+
+
+#SOLUTION
+
+positive = [i for i in numbers if i > 0]
+
+print(positive)

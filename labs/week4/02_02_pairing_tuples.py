@@ -20,3 +20,21 @@ for i in range(list_length):
 
 # example input :[1,2,5,1,2]
 # example output :[(1,1), (2,2), (5,0)]
+
+#SOLUTION
+
+sorted_list = sorted(randlist)
+new_list=[]
+the_tupple = ()
+for num in sorted_list:
+    if len(the_tupple) < 2:
+        the_tupple += (num,)
+    
+    elif len(the_tupple) == 2:
+        new_list.append(the_tupple)
+        the_tupple = ()
+        the_tupple += (num,)
+        
+print(f"Input:\n{randlist}")
+print(f"\nOutput:\n{new_list}")
+        

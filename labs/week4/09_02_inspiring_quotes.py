@@ -37,3 +37,13 @@ famous_quotes = [
         "quote": "Standards are always out of date.  That’s what makes them standards.",
     },
 ]
+
+
+#SOLUTION
+
+for the_dict in famous_quotes:
+    full_name = the_dict["full_name"]
+    quote = the_dict["quote"]
+    
+    print(f'"{quote}"  -{full_name}')
+    

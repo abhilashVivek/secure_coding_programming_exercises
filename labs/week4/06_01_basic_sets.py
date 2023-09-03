@@ -4,3 +4,6 @@
 
 s = {1, 2, 3, 4}
 t = {3, 4, 5, 6}
+
+print(f"The intersection is {s & t}.")
+print(f"The union is {s | t}.")
