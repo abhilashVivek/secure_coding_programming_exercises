@@ -15,6 +15,11 @@ def list_of_even_nums(start, stop):
     be the sequence of even numbers from start to stop
     Make sure to use the yield keyword!
     """
+    for i in range(start,stop+1):
+        if i % 2 == 0:
+            yield i
+    # gen = (i for i in range(start,stop+1) if i %2 == 0)       #alternate
+    # return gen
 
 
 # use your generator

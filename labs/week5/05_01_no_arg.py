@@ -7,6 +7,9 @@ def no_args():
     ideas: use a global
     Idea: just print something out
     """
+    print("This function was executed without any arguments!")
 
 
 # call your function down here
+
+no_args()

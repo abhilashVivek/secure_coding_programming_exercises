@@ -8,6 +8,9 @@ def print_your_name_UPPER(name):
 
     This function Prints out the users name in all uppercase
     """
+    local_varible = name.upper      #output will be null becuse the return command is not used.
+                                    # so the function only stores the converted value locally
+    # print(local_varible)            #however if i use the print command, the code will show an output
 
 
 # What happens when you run your function and attempt to return a variable?

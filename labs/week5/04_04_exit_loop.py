@@ -15,6 +15,12 @@ def find_first_divisible(list_of_nums, n):
     output: 3
     
     """
+    for i in list_of_nums:
+        if i % n == 0:
+            return i
+        
+    
+print(find_first_divisible([1,2,3,4,5], 3))
 
     ## Use a for -loop to iterate over the input list
     ## check if the number is divisble by n with modulo
