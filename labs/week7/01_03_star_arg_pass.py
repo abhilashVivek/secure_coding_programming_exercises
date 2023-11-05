@@ -18,6 +18,6 @@ my_list = [
 ]
 
 ## this code is broken
-args(my_list)
+args(*my_list)
 
 ## fix it ^^^ so it works.

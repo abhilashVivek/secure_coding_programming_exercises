@@ -14,3 +14,10 @@ Remember, your string needs to _grow_ with the *args - it needs infinite potenti
 
 """
 
+def concat_custom(name,job,*args):
+  the_string = f"hello {name}, I heard your job of {job} allows you to own a {args[0]}"
+  for i in args[1:-1]:
+    the_string = the_string + ", " + i
+  return the_string + " and " + args[-1] +"."
+
+print(concat_custom("Gilad","washing dishes","lawn-mower", "house", "cat","bat","anything else you want"))

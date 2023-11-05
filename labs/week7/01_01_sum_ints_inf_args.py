@@ -12,5 +12,11 @@
 # output: 6
 
 
-def sum_ints():
-    pass
+def sum_ints(*args):
+    sum = 0
+    for argument in args:
+        if type(argument) == type(1):
+            sum += argument
+            
+    return sum
+# print(sum_ints(1,2,3,4,'hi','hi',(1,2,3), 10))

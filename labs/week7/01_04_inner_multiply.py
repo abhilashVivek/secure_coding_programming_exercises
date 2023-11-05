@@ -3,3 +3,12 @@
 
 # example input: (1,2), (2,2), (3,2), (4,5)
 # output: [2,4,6,20]
+
+def the_func(*args):
+    list1 = []
+    for i in args:
+        a,b = i
+        list1.append(a*b)
+    return list1
+
+print(the_func((1,2), (2,2), (3,2), (4,5)))
