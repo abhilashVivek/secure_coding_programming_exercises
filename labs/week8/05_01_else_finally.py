@@ -7,3 +7,12 @@ if no exception is raised, update the value
 Regardless of what happens, print the dictionary
 """
 
+def dict_keylookup(dict, key):
+    try:
+        dict[key] = dict[key] + ".v1"
+    except KeyError:
+        dict[key] = "def_val"
+    return dict
+    
+print(dict_keylookup({1:"val",2:"val"},2))
+print(dict_keylookup({1:"val",2:"val"},3))

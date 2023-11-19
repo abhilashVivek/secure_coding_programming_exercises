@@ -10,3 +10,10 @@ if an error happens.
 The purpose of this exercise is to just practice observing that
 """
 
+try:
+    
+    1 / 0
+except:
+    pass
+finally:
+    print("This will always be printed.")
