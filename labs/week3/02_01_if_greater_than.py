@@ -19,4 +19,4 @@ else:
 # print(first_number)
 
 # note, what type is your first_number? Is it what you expected?
-# look-up the input() documentation to find out what type it will create by default
+# look-up the input() docume ntation to find out what type it will create by default
