@@ -1,7 +1,7 @@
 # Exercise
 
 # Write a program by accepting 2 numbers from the user and check number is greater than other and print the result
-# you can use the function `input()` to get user input
+# you can use the functionfg `input()` to get user input
 num1,num2 ="not numeric","also not numeric"
 while num1.isnumeric() != True and num2.isnumeric() != True:
     num1= input("Enter num1: ")      
